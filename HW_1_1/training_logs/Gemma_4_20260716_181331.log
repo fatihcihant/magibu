@@ -1,0 +1,44 @@
+device=cpu  vocab_size=36  parameters=64,256
+layers: ['local', 'local', 'local', 'local', 'local', 'global']
+step     1  loss 27.6609
+step   200  loss 1.3300
+step   400  loss 0.6387
+step   600  loss 0.4838
+step   800  loss 0.4240
+step  1000  loss 0.4030
+step  1200  loss 0.4257
+step  1400  loss 0.3874
+step  1600  loss 0.3731
+step  1800  loss 0.3700
+step  2000  loss 0.3474
+step  2200  loss 0.3687
+step  2400  loss 0.3774
+step  2600  loss 0.3601
+step  2800  loss 0.3688
+step  3000  loss 0.3553
+step  3200  loss 0.3456
+step  3400  loss 0.3841
+step  3600  loss 0.3599
+step  3800  loss 0.3713
+step  4000  loss 0.3824
+step  4200  loss 0.3422
+step  4400  loss 0.3652
+step  4600  loss 0.3425
+step  4800  loss 0.3436
+step  5000  loss 0.3524
+
+baseline loss (uniform guessing): 3.5835
+
+sample names:
+   los angeles
+   madrid
+   brazilya
+   rigali
+   ankara
+   mekke
+   kanberra
+   durban
+   rio de janeiro
+   auckland
+
+saved checkpoint to tiny_gemma.pt

@@ -1,0 +1,43 @@
+device=cpu  vocab_size=36  parameters=19,776
+step     1  loss 32.0490
+step   200  loss 2.5940
+step   400  loss 2.1365
+step   600  loss 1.6327
+step   800  loss 1.1421
+step  1000  loss 0.8249
+step  1200  loss 0.7499
+step  1400  loss 0.5489
+step  1600  loss 0.5097
+step  1800  loss 0.4964
+step  2000  loss 0.4620
+step  2200  loss 0.4408
+step  2400  loss 0.4427
+step  2600  loss 0.4344
+step  2800  loss 0.4080
+step  3000  loss 0.4113
+step  3200  loss 0.3919
+step  3400  loss 0.3920
+step  3600  loss 0.4049
+step  3800  loss 0.4213
+step  4000  loss 0.3983
+step  4200  loss 0.3439
+step  4400  loss 0.3868
+step  4600  loss 0.3719
+step  4800  loss 0.3967
+step  5000  loss 0.3746
+
+baseline loss (uniform guessing): 3.5835
+
+sample names:
+   phoenix
+   valletta
+   dallas
+   dod
+   marsilya
+   san jose
+   ilasailava
+   kahire
+   hila
+   ttines
+
+saved checkpoint to tiny_qwen.pt

@@ -1,0 +1,46 @@
+device=cpu  vocab_size=36  parameters=48,168 (active per token ~35,880)
+layers: ['dense', 'moe', 'moe']
+step     1  loss 30.9619
+step   200  loss 2.4823
+step   400  loss 2.0889
+step   600  loss 1.5238
+step   800  loss 1.0146
+step  1000  loss 0.7159
+step  1200  loss 0.6333
+step  1400  loss 0.5443
+step  1600  loss 0.5075
+step  1800  loss 0.4636
+step  2000  loss 0.4320
+step  2200  loss 0.4439
+step  2400  loss 0.3934
+step  2600  loss 0.4047
+step  2800  loss 0.3972
+step  3000  loss 0.3873
+step  3200  loss 0.4100
+step  3400  loss 0.4087
+step  3600  loss 0.3910
+step  3800  loss 0.3976
+step  4000  loss 0.3980
+step  4200  loss 0.4134
+step  4400  loss 0.3999
+step  4600  loss 0.3834
+step  4800  loss 0.3738
+step  5000  loss 0.3758
+layer 1 expert load: [0.26, 0.24, 0.24, 0.26]
+layer 2 expert load: [0.23, 0.26, 0.25, 0.25]
+
+baseline loss (uniform guessing): 3.5835
+
+sample names:
+   madrid
+   medine
+   ottawa
+   victoria
+   maseru
+   bişkek
+   cezayir
+   sao paulo
+   asmara
+   guatemala
+
+saved checkpoint to tiny_deepseek.pt

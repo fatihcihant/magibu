@@ -1,0 +1,44 @@
+device=cpu  vocab_size=36  parameters=42,184
+layers: ['deltanet', 'deltanet', 'deltanet', 'full']
+step     1  loss 32.2296
+step   200  loss 1.9684
+step   400  loss 0.6975
+step   600  loss 0.4594
+step   800  loss 0.4546
+step  1000  loss 0.4049
+step  1200  loss 0.3978
+step  1400  loss 0.3885
+step  1600  loss 0.3780
+step  1800  loss 0.3919
+step  2000  loss 0.3895
+step  2200  loss 0.3791
+step  2400  loss 0.3729
+step  2600  loss 0.3497
+step  2800  loss 0.3727
+step  3000  loss 0.3643
+step  3200  loss 0.3532
+step  3400  loss 0.3431
+step  3600  loss 0.3471
+step  3800  loss 0.3709
+step  4000  loss 0.3781
+step  4200  loss 0.3431
+step  4400  loss 0.3525
+step  4600  loss 0.3816
+step  4800  loss 0.3615
+step  5000  loss 0.3460
+
+baseline loss (uniform guessing): 3.5835
+
+sample names:
+   vaduz
+   bandar seri begawan
+   lusaka
+   kaind
+   lıurfa
+   mala
+   nagoyan
+   phnom penh
+   t. petersburg
+   lahor
+
+saved checkpoint to tiny_qwen35.pt
